@@ -163,7 +163,7 @@ input:-moz-placeholder {
 	}
 
 	.b-2{
-		background: url('../i/back-1.png') 17% 100%;
+		background: url('../i/back-1.png') 34% 100%;
 		background-size: cover;
 		padding-top: 120px;
 		padding-bottom: 149px;
@@ -309,7 +309,30 @@ input:-moz-placeholder {
 				margin-right: 0px;
 			}
 
-		.b-3 p{
+
+			.b-3 .text{
+
+			}
+
+				.b-3 .text p{
+					font-family: 'MyriadProItalic';
+					font-size: 16px;
+					width: 112px;
+					color: #502b1c;
+					float: left;
+					margin-top: 18px;
+					margin-right: 66px;
+				}
+
+				.b-3 .text p:last-child{
+					margin-right: 22px;
+				}
+
+				.b-3 .text p:first-child{
+					margin-left: 24px;
+				}
+
+		.b-3 .paragraph{
 			margin: 0px auto;
 			margin-top: 84px;
 			width: 709px;
