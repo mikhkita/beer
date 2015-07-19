@@ -57,28 +57,7 @@ input.error,textarea.error{
 	background-color: #FFCECE !important;
 	box-shadow: 0 1px 2px rgba(180, 14, 14, 0.57);
 }
-.ps-lines{
 
-}
-	.ps-lines li.v{
-		position: fixed;
-		left: 50%;
-		height: 100%;
-		width: 1px;
-		top: 0px;
-		background-color: #00ffff;
-		opacity: 0.8;
-		z-index: 9999;
-	}
-	.ps-lines li.g{
-		position: absolute;
-		left: 0px;
-		width: 100%;
-		height: 1px;
-		background-color: #00ffff;
-		opacity: 0.8;
-		z-index: 9999;
-	}
 .fancybox-inner{
 	overflow: visible !important;
 }
@@ -163,7 +142,7 @@ input:-moz-placeholder {
 	}
 
 	.b-2{
-		background: url('../i/back-1.png') 34% 100%;
+		background: url('../i/back-1.png') 50% 100%;
 		background-size: cover;
 		padding-top: 120px;
 		padding-bottom: 149px;
@@ -285,9 +264,17 @@ input:-moz-placeholder {
 						}
 
 	.b-3{
-		background: url('../i/back-2.png') 50% 44%;
-		background-repeat: no-repeat;
+		
 	}
+		.b-3 .image{
+			position: absolute;
+  			z-index: 0;
+  			left: 617px;
+		}
+
+		.b-3 .content{
+
+		}
 
 		.b-3 h2{
 			font-family: 'lobster-regular';
@@ -298,7 +285,7 @@ input:-moz-placeholder {
 		}
 
 		.b-3 .our{
-			margin-top: 60px;
+			
 		}
 	
 			.b-3 .our img{
@@ -309,19 +296,28 @@ input:-moz-placeholder {
 				margin-right: 0px;
 			}
 
-
-			.b-3 .text{
-
+			.b-3 ul{
+				margin-top: 60px;
+				font-family: 'MyriadProItalic';
+				font-size: 16px;
+				color: #502b1c;
 			}
 
-				.b-3 .text p{
-					font-family: 'MyriadProItalic';
-					font-size: 16px;
+				.b-3 ul li{
+					width: 150px;
+  					display: inline;
+  					float: left;
+  					margin-left: 30px;
+				}
+
+				.b-3 ul li:first-child{
+					margin-left: 0px;
+				}
+
+				.b-3 ul li p{
 					width: 112px;
-					color: #502b1c;
-					float: left;
-					margin-top: 18px;
-					margin-right: 66px;
+  					margin-top: 18px;
+  					margin-left: 20px;
 				}
 
 				.b-3 .text p:last-child{
@@ -334,7 +330,7 @@ input:-moz-placeholder {
 
 		.b-3 .paragraph{
 			margin: 0px auto;
-			margin-top: 84px;
+			margin-top: 81px;
 			width: 709px;
 			padding-top: 55px;
 			font-size: 17px;
