@@ -163,7 +163,7 @@ input:-moz-placeholder {
 	}
 
 	.b-2{
-		background: url('../i/back-1.png') 17%;
+		background: url('../i/back-1.png') 17% 100%;
 		background-size: cover;
 		padding-top: 120px;
 		padding-bottom: 149px;
@@ -201,14 +201,15 @@ input:-moz-placeholder {
 					}
 
 					.b-2 .reg form h2{
-						font-family: 'lobster-regular';
-						font-size: 22px;
-						color: #fff;
-						float: left;
-						width: 254px;
-						margin-top: 12px;
-						margin-bottom: 10px;
-						margin-left: 5px;
+						line-height: 31px;
+  						font-family: 'lobster-regular';
+  						font-size: 22px;
+  						color: #fff;
+  						float: left;
+  						width: 254px;
+  						margin-top: 12px;
+  						margin-bottom: 7px;
+  						margin-left: 5px;
   						margin-right: 5px;
 					}
 
@@ -264,7 +265,7 @@ input:-moz-placeholder {
   						margin-left: 17px;
   						text-align: center;
   						background-color: #502b1c;
-  						padding: 5px 0px 7px 2px;
+  						padding: 5px 0px 4px 2px;
   						border-radius: 7px;
   						border: 1px solid #200d06;
   						margin-bottom: 33px;
@@ -274,6 +275,8 @@ input:-moz-placeholder {
 
 						.b-2 .reg form input[type='submit']:hover{
 							background-color: #8e5b2b;
+							cursor: pointer;
+							border: 1px solid #8e5b2b;
 						}
 
 
@@ -282,8 +285,8 @@ input:-moz-placeholder {
 						}
 
 	.b-3{
-		background-image: url('../i/back-2.png');
-		background-size: cover;
+		background: url('../i/back-2.png') 50% 44%;
+		background-repeat: no-repeat;
 	}
 
 		.b-3 h2{
@@ -318,7 +321,7 @@ input:-moz-placeholder {
 			color: #502b1c;
 			line-height: 25px;
 			padding-left: 24px;
-			margin-bottom: 215px;
+			padding-bottom: 215px;
 		}
 
 @media screen and (max-width: 1250px){
