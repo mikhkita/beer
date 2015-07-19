@@ -1,45 +1,44 @@
-
 @font-face {
-	font-family: 'PFL';
-	src: url('../fonts/pdfintextcondpro-light-webfont.eot');
-    src: url('../fonts/pdfintextcondpro-light-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/pdfintextcondpro-light-webfont.woff') format('woff'),
-         url('../fonts/pdfintextcondpro-light-webfont.ttf') format('truetype');
+    font-family: 'lobster-regular';
+    src: url('../fonts/7z235irp-webfont.eot');
+    src: url('../fonts/7z235irp-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/7z235irp-webfont.woff2') format('woff2'),
+         url('../fonts/7z235irp-webfont.woff') format('woff'),
+         url('../fonts/7z235irp-webfont.ttf') format('truetype'),
+         url('../fonts/7z235irp-webfont.svg#lobster_1.4regular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
-	font-family: 'PFR';
-	src: url('../fonts/pfdintextcondpro-regular-webfont.eot');
-    src: url('../fonts/pfdintextcondpro-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/pfdintextcondpro-regular-webfont.woff') format('woff'),
-         url('../fonts/pfdintextcondpro-regular-webfont.ttf') format('truetype');
-    font-weight: normal;
+    font-family: 'MyriadProRegular';
+    src: url('../fonts/MyriadProRegular.eot');
+    src: url('../fonts/MyriadProRegular.eot?#iefix')format("embedded-opentype"),
+    	 url('../fonts/MyriadProRegular.woff') format("woff"),
+    	 url('../fonts/MyriadProRegular.ttf') format("truetype");
     font-style: normal;
-}
+    font-weight: normal;
+ }
 
 @font-face {
-	font-family: 'PFM';
-	src: url('../fonts/pfdintextcondpro-medium-webfont.eot');
-    src: url('../fonts/pfdintextcondpro-medium-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/pfdintextcondpro-medium-webfont.woff') format('woff'),
-         url('../fonts/pfdintextcondpro-medium-webfont.ttf') format('truetype');
-    font-weight: normal;
+    font-family: 'MyriadProItalic';
+    src: url('../fonts/MyriadProItalic.eot');
+    src: url('../fonts/MyriadProItalic.eot?#iefix')format("embedded-opentype"),
+    	 url('../fonts/MyriadProItalic.woff') format("woff"),
+    	 url('../fonts/MyriadProItalic.ttf') format("truetype");
     font-style: normal;
+    font-weight: normal;
 }
-
 
 html,
 body {
 	position: relative;
 }
 body {
-	min-width: 1000px;
+	min-width: 1080px;
 	text-align: center;
-	font-family: 'PFL';
+	font-family: 'MyriadProRegular';
 	overflow-x: hidden;
-	color: #472275;
 }
 a{
 	text-decoration: none;
@@ -97,7 +96,7 @@ input.error,textarea.error{
 }
 .b-block{
 	position: relative;
-	width: 1000px;
+	width: 1050px;
 	margin: 0px auto;
 }
 .b-absolute{
@@ -118,10 +117,210 @@ input:-moz-placeholder {
 	.b-orange-butt:hover{
 		
 	}
+
 .b-1{
 	
 }
+
+	.b-1 img{
+		float: left;
+		width: 178px;
+		height: 170px;
+		margin-top: 8px;
+		margin-left: -8px;
+		margin-bottom: 12px;
+	}
+
+	.b-1 .invest{
+		float: left;
+		margin-right: 89px;
+		margin-left: 100px;
+
+	}
+
+		.b-1 .invest h2{
+			font-family: 'lobster-regular';
+			font-size: 27px;
+			color: #502b1c;
+			margin-top: 41px;
+			margin-bottom: 16px;
+		}
+
+		.b-1 .invest p{
+			width: 415px;
+			font-size: 22px;
+			color: #502b1c;
+			margin: 0px auto;
+			font-family: 'MyriadProRegular';
+		}
+
+	.b-1 .telephone{
+		float: left;
+		font-family: 'lobster-regular';
+		color: #502b1c;
+		font-size: 24px;
+		margin-top: 70px;
+	}
+
+	.b-2{
+		background: url('../i/back-1.png') 17%;
+		background-size: cover;
+		padding-top: 120px;
+		padding-bottom: 149px;
+	}
+		.b-2 .reg{
+			border: 1px solid #fff;
+			padding-top: 8px;
+			width: 1050px;
+			height: 345px;
+		}
+
+				.b-2 .reg iframe{
+					padding-left: 10px;
+				}
+
+				.b-2 .reg form{
+					float: left;
+  					width: 465px;
+				}
+
+				.b-2 .reg form .title{
+					background-color: #8e5b2b;
+  					width: 341px;
+  					padding-left: 72px;
+  					padding-right: 52px;
+  				
+				}
+
+					.b-2 .reg .line{
+						margin-top: 39px;
+  						float: left;
+  						width: 37px;
+  						height: 1px;
+  						border-bottom: 1px solid #c7ad95;
+					}
+
+					.b-2 .reg form h2{
+						font-family: 'lobster-regular';
+						font-size: 22px;
+						color: #fff;
+						float: left;
+						width: 254px;
+						margin-top: 12px;
+						margin-bottom: 10px;
+						margin-left: 5px;
+  						margin-right: 5px;
+					}
+
+					.b-2 .reg form .b-popup-form{
+						background-color: #fff;
+						padding-top: 21px;
+					}
+
+						.b-2 .reg form .b-popup-form .mail{
+							background-color: #502b1c;
+							padding: 13px 13px 10px 13px;
+							margin-left: 89px;
+						}
+
+							.b-2 .reg form .b-popup-form .name{
+								background-color: #502b1c;
+								padding: 10px 13px 8px 13px;
+								margin-left: 89px;
+							}
+							.b-2 .reg form .b-popup-form .tel{
+								background-color: #502b1c;
+								padding: 10px 13px 9px 13px;
+								margin-left: 89px;
+							}
+
+						.b-2 .reg form input[type='text']{
+							font-family: 'MyriadProItalic';
+							font-size: 16px;
+							background-color: #8e5b2b;
+							padding: 11px 0px 12px 38px;
+							float: left;
+							width: 224px;
+							color: #fff;
+							border: none;
+							margin-bottom: 8px;
+						}
+
+
+
+						input::-webkit-input-placeholder {
+							color: #fff;
+						}
+						input:-moz-placeholder {
+							color: #fff;
+						}
+
+						.b-2 .reg form input[type='submit']{
+						font-family: 'lobster-regular';
+  						width: 306px;
+  						font-size: 21px;
+  						color: #fff;
+  						margin-top: 12px;
+  						margin-left: 17px;
+  						text-align: center;
+  						background-color: #502b1c;
+  						padding: 5px 0px 7px 2px;
+  						border-radius: 7px;
+  						border: 1px solid #200d06;
+  						margin-bottom: 33px;
+  						box-shadow: 0px 0px 6px 0px #c7ad95,
+ 									inset 0px 0px 1px 0px #8e5b2b;
+						}
+
+						.b-2 .reg form input[type='submit']:hover{
+							background-color: #8e5b2b;
+						}
+
+
+						.b-2 .reg form input[type='submit']:active{
+							background-color: #784c23;
+						}
+
+	.b-3{
+		background-image: url('../i/back-2.png');
+		background-size: cover;
+	}
+
+		.b-3 h2{
+			font-family: 'lobster-regular';
+			font-size: 36px;
+			color: #502b1c;
+			margin-top: 46px;
+			margin-bottom: 12px;
+		}
+
+		.b-3 .our{
+			margin-top: 60px;
+		}
 	
+			.b-3 .our img{
+				margin-right: 31px;
+			}
+	
+			.b-3 .our img:last-child{
+				margin-right: 0px;
+			}
+
+		.b-3 p{
+			margin: 0px auto;
+			margin-top: 84px;
+			width: 709px;
+			padding-top: 55px;
+			font-size: 17px;
+			text-align: center;
+			font-family: 'MyriadProItalic';
+			border-top: 1px solid #8c5827;
+			color: #502b1c;
+			line-height: 25px;
+			padding-left: 24px;
+			margin-bottom: 215px;
+		}
+
 @media screen and (max-width: 1250px){
 	
 }
