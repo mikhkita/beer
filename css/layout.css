@@ -54,8 +54,8 @@ label.error{
 	display: none !important;
 }
 input.error,textarea.error{
-	background-color: #FFCECE !important;
-	box-shadow: 0 1px 2px rgba(180, 14, 14, 0.57);
+	background-color: #CE3A3A !important;
+	/*box-shadow: 0 1px 2px rgba(180, 14, 14, 0.57);*/
 }
 
 .fancybox-inner{
@@ -138,7 +138,7 @@ input:-moz-placeholder {
 		font-family: 'lobster-regular';
 		color: #502b1c;
 		font-size: 24px;
-		margin-top: 70px;
+		margin-top: 76px;
 	}
 
 	.b-2{
@@ -149,7 +149,7 @@ input:-moz-placeholder {
 	}
 		.b-2 .reg{
 			border: 1px solid #fff;
-			padding-top: 8px;
+			padding-top: 10px;
 			width: 1050px;
 			height: 345px;
 		}
@@ -186,8 +186,10 @@ input:-moz-placeholder {
   						color: #fff;
   						float: left;
   						width: 254px;
-  						margin-top: 12px;
-  						margin-bottom: 7px;
+  						
+						margin-top: 9px;
+  						
+						margin-bottom: 10px;
   						margin-left: 5px;
   						margin-right: 5px;
 					}
@@ -199,26 +201,32 @@ input:-moz-placeholder {
 
 						.b-2 .reg form .b-popup-form .mail{
 							background-color: #502b1c;
-							padding: 13px 13px 10px 13px;
+							padding: 14px 13px 14px 13px;
 							margin-left: 89px;
-						}
+						
+							font-size: 0px;
+}
 
 							.b-2 .reg form .b-popup-form .name{
 								background-color: #502b1c;
-								padding: 10px 13px 8px 13px;
+								padding: 11px 13px 11px 13px;
 								margin-left: 89px;
-							}
+							
+								font-size: 0px;
+}
 							.b-2 .reg form .b-popup-form .tel{
 								background-color: #502b1c;
-								padding: 10px 13px 9px 13px;
+								padding: 11px 13px 12px 13px;
 								margin-left: 89px;
-							}
+							
+								font-size: 0px;
+}
 
 						.b-2 .reg form input[type='text']{
 							font-family: 'MyriadProItalic';
 							font-size: 16px;
 							background-color: #8e5b2b;
-							padding: 11px 0px 12px 38px;
+							padding: 14px 0px 9px 38px;
 							float: left;
 							width: 224px;
 							color: #fff;
@@ -236,20 +244,19 @@ input:-moz-placeholder {
 						}
 
 						.b-2 .reg form input[type='submit']{
-						font-family: 'lobster-regular';
-  						width: 306px;
-  						font-size: 21px;
-  						color: #fff;
-  						margin-top: 12px;
-  						margin-left: 17px;
-  						text-align: center;
-  						background-color: #502b1c;
-  						padding: 5px 0px 4px 2px;
-  						border-radius: 7px;
-  						border: 1px solid #200d06;
-  						margin-bottom: 33px;
-  						box-shadow: 0px 0px 6px 0px #c7ad95,
- 									inset 0px 0px 1px 0px #8e5b2b;
+							font-family: 'lobster-regular';
+  							width: 306px;
+  							font-size: 21px;
+  							color: #fff;
+  							margin-top: 12px;
+  							margin-left: 17px;
+  							text-align: center;
+  							background-color: #502b1c;
+  							padding: 5px 0px 4px 2px;
+  							border-radius: 7px;
+  							border: 1px solid #200d06;
+  							margin-bottom: 33px;
+  							box-shadow: 0px 0px 6px 0px #c7ad95, inset 0px 0px 1px 0px #8e5b2b;
 						}
 
 						.b-2 .reg form input[type='submit']:hover{
@@ -301,6 +308,8 @@ input:-moz-placeholder {
 				font-family: 'MyriadProItalic';
 				font-size: 16px;
 				color: #502b1c;
+				position: relative;
+				z-index: 10;
 			}
 
 				.b-3 ul li{
@@ -340,8 +349,51 @@ input:-moz-placeholder {
 			color: #502b1c;
 			line-height: 25px;
 			padding-left: 24px;
-			padding-bottom: 215px;
+			padding-bottom: 175px;
 		}
+.fancybox-close{
+	display: none;
+}
+.b-thanks{
+	padding: 30px;
+	width: 350px;
+}
+	.b-thanks h3{
+		line-height: 31px;
+  		font-family: 'lobster-regular';
+  		font-size: 22px;
+  		margin-bottom: 10px;
+	}
+	.b-thanks h4{
+		font-family: 'MyriadProItalic';
+		margin-bottom: 10px;
+	}
+	.b-thanks .b-orange-butt{
+		font-family: 'lobster-regular';
+		width: 306px;
+		font-size: 21px;
+		color: #fff;
+		margin-top: 12px;
+		margin-left: 17px;
+		text-align: center;
+		background-color: #502b1c;
+		padding: 5px 0px 4px 2px;
+		border-radius: 7px;
+		border: 1px solid #200d06;
+		box-shadow: 0px 0px 6px 0px #c7ad95, inset 0px 0px 1px 0px #8e5b2b;
+	}
+
+	.b-thanks .b-orange-butt:hover{
+		background-color: #8e5b2b;
+		cursor: pointer;
+		border: 1px solid #8e5b2b;
+	}
+
+
+	.b-thanks .b-orange-butt:active{
+		background-color: #784c23;
+	}
+
 
 @media screen and (max-width: 1250px){
 	
